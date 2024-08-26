@@ -1,0 +1,41 @@
+/* Ensure navbar items are properly spaced */
+.navbar {
+    padding: 10px 0;
+    background-color: white!important;
+}
+
+/* Style for the container to space out the logo, menu, and buttons */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Ensures buttons are aligned to the right */
+.btns {
+    display: flex;
+    gap: 10px; /* Space between the "Sign In" and "Sign Up" buttons */
+}
+
+.navbar-nav {
+    margin-right: auto; /* Pushes the navigation menu to the right */
+    padding-left: 40px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Ensures logo stays to the left */
+}
+.btn-outline-danger{
+    border-radius: 60px;
+    background-color: transparent!important;
+    color: red!important;
+}
+
+
+.btn-light{
+    border-radius: 60px;
+    background-color: transparent!important;
+
+}
